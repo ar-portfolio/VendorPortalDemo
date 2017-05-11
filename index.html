@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>VendorPortal Demo</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <style>
+        html {
+            height: 100%;
+            background-color: cornflowerblue;
+        }
+
+        body {
+            width: 80%;
+            height: 100%;
+            margin: auto;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        h1 {
+            color: cornflowerblue;
+            padding-bottom: 1em;
+        }
+
+        .well {
+            margin-top: 5em;
+        }
+
+        #topNavbar {
+            border-bottom: 3px solid blue;
+            left: 12%;
+            right: 12%;
+            background-color: white;
+        }
+
+        #space {
+            height: 60px;
+        }
+
+        #buttonDiv {
+            margin-top: 5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <nav id="topNavbar" class="navbar navbar-fixed-top">
+            <a class="navbar-brand" href="index.html">Home</a>
+            <ul class="nav navbar-nav">
+                <li><a href="po.html">Purchase Order</a></li>
+                <li><a href="timeline.html">Timeline</a></li>
+            </ul>
+        </nav>
+
+        <div id="space"></div>
+
+        <div class="col-md-8 col-md-offset-1 well">
+            <h1 class="text-center">Welcome to RJ Brands Vendor Portal</h1>
+            <h4 class="text-center">Please review all documents and choose from the following options:</h4>
+            <h5 class="text-center">After conformation, you will receive a copy of all documents for your records.</h5>
+            <div id="buttonDiv" class="col-md-6 col-md-offset-3">
+                <button class="col-md-4 btn btn-success">Confirm</button>
+                <button class="col-md-4 col-md-offset-4 btn btn-success">Adjust</button>  
+            </div>
+        </div>
+    </div>
+</body>
+</html>
